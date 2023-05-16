@@ -1,3 +1,12 @@
+/*
+    & is pink
+    ! some alert 
+    ^ some stuff 
+    ? questions 
+    * highlights 
+    ~ arrow function 
+    TODO colorful
+*/ 
 
 * {
     box-sizing: border-box;
@@ -6,31 +15,38 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Body Section */
+/* ^Body Section */
 
 /* define body width etc */
 body { 
     width: 100%;
-    max-width: 1024px;
+    max-width: 1024px; /* ! remove this line and it will strech full screen */
     margin: 0 auto;
     margin-bottom: 60px;
 }
 
-/* END of Body */
+/* ^END of Body */
 
 
 /* Navbar - START Section */
 
 
-
 /* Give header a color */
 header {
-    background-color: pink;
+    background-color: bisque;
+    /* TODO - Create a border around the header */
+    border: 1px solid black;
 }
 
 /* define height for the nav */
 nav {
     height: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 }
 
 
