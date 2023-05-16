@@ -1,0 +1,36 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Body Section */
+
+/* define body width etc */
+body { 
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+/* END of Body */
+
+
+/* Navbar - START Section */
+
+
+/* Give header a color */
+header {
+    background-color: pink;
+}
+
+/* define height for the nav */
+nav {
+    height: 60px;
+}
+
+
+/* END of NAV section */
